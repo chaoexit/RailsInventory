@@ -17,6 +17,7 @@ gem 'jquery-rails'
 gem 'pundit'
 gem 'ffi-icu'
 gem 'pg'
+gem 'sass-rails'
 
 # Gems used only for assets and not required
 # in production environments by default.
