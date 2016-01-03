@@ -33,4 +33,5 @@ Rims::Application.configure do
   config.active_support.deprecation = :stderr
 
   config.eager_load = false
+  config.log_level = :info
 end
