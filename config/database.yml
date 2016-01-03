@@ -20,7 +20,7 @@ test:
 
 production:
   adapter: postgresql
-  encoding: unicode
+  encoding: utf-8
   host: localhost
   database: rims
   pool: 5
