@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 # Core gems
 gem 'rails', '4.2.1'
+gem 'sass-rails'
 gem 'protected_attributes'
 gem 'carrierwave'
 gem 'mini_magick'
@@ -17,7 +18,6 @@ gem 'jquery-rails'
 gem 'pundit'
 gem 'ffi-icu'
 gem 'pg'
-gem 'sass-rails'
 gem 'uglifier'
 
 # Gems used only for assets and not required
