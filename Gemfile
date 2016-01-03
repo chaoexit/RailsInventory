@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 # Core gems
 gem 'rails'
-gem 'sqlite3'
 gem 'protected_attributes'
 gem 'carrierwave'
 gem 'mini_magick'
@@ -33,6 +32,7 @@ group :development, :test do
 end
 
 group :test do
+  gem 'sqlite3'
   gem 'faker'
   gem 'capybara'
   gem 'guard-rspec'
